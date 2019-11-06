@@ -30,4 +30,5 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each {|n| puts n}
+  assign_rooms(attendees).each {|n| puts n}
 end
